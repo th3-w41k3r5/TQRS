@@ -1,5 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+#miscellaneous
+/copytickets.js
+/mongodb.js
+/test-db.js
+/updates.txt
+
 # dependencies
 /node_modules
 /.pnp
@@ -39,3 +45,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
